@@ -1,0 +1,452 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.head1{
+    height: 25px;
+    width: 100%;
+    background-color: rgb(225,225,225);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.blank{
+    width: 400px;
+}
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    height: 12px;
+    width: 12px;
+    margin-left: 50px;
+   
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    
+    .icon1{
+       
+    }    
+
+    .icon2{
+        border: 1px solid gray;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .icon3{
+        border: 1px solid gray;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon4{
+       
+    }
+    
+    .head2{
+        border: 1px solid gray;
+        height: 90px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+     
+      
+    }
+    .oceanlogo{
+        height: 100px;
+        margin-left: 40px;
+       
+    }
+@font-face {
+    font-family: ocean;
+    src: url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+    .ocean{
+        color: #071562;
+        
+   font-family:  'ocean', cursive;
+   font-size: 15px;
+   
+   line-height: 88px;
+   font-style: normal;
+  
+    }
+
+    .image2{
+        height: 420px;
+        width: 100%;
+    
+    }
+
+.video{
+    border: 5px solid black;
+ width: 1200px;
+    height: 750px;
+    object-fit: cover;
+    
+    margin-left: 80px;
+   
+}
+.circle{
+    display: flex;
+    justify-content: space-around;
+
+}
+.circle1{
+    height: 200px;
+    width: 200px;
+   
+}
+.circle2{
+    height: 200px;
+    width: 200px;
+}
+.circle3{
+    height: 200px;
+    width: 200px;
+}
+@font-face {
+    font-family: h;
+    src: url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.h{
+   font-size: 34px;
+line-height: 37px;
+color: #071562;
+}
+.h1{
+    color: rgb(7,22,98);
+    text-align: center;
+  
+   
+}
+
+.head3{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(129,188,234);
+   
+    
+}
+
+.news{
+    color: white;
+}
+.squares{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.square{
+height: 150px;
+width: 200px;
+}
+@font-face {
+    font-family: square1;
+    src: url(./fonts/Ms_Madi/MsMadi-Regular.ttf);
+}
+.square1{
+   text-align: justify;
+   font-family:  cursive;
+   font-size: 14px;
+   
+   color: rgb(23,126,214);
+   
+}
+.head4{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(6,21,97);
+    display: flex;
+   
+    justify-content: center;
+    
+}
+.body{
+    background-color: white;
+}
+.locean{
+
+}
+
+.support{
+    color: rgb(10,24,100);
+    font-size: 34px;
+
+
+}
+.pureocean{
+    color: rgb(3,121,212);
+    font-size: 28px;
+    font-weight: ;
+}
+
+.me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.me2{
+    text-align: center;
+    color: rgb(32,129,215);
+}
+@font-face {
+    font-family: pure;
+    src: url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.pure{
+   color: rgb(63,77,136);
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 400px;
+   font-family: 'pure',cursive;
+}
+.box{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(129,188,234);
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   
+}
+.box1{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.shadow1{
+   color: white;
+   border-radius: 100%;
+   height: 50px;
+   width: 50px;
+   background-color: rgb(3,121,212);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ margin-top: -20px;
+
+}
+.about1{
+    
+   margin-left: 
+   
+  
+    
+  
+
+}
+
+.us{
+    color: rgb(22,125,213);
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    justify-content: left;
+    margin-left: 190px;
+    margin-top: -200px;
+
+    
+ 
+   
+}
+.about2{
+    text-align: center;
+
+    font-size: 13px;
+    color: rgb(7,22,98);
+    line-height: 21px;
+  display: flex;
+  margin-left: 100px;
+ 
+    
+}
+
+.box2{
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.box3{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.our{
+    color: rgb(22,125,213);
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: -130px;
+}
+.science{
+    text-align: center;
+
+    font-size: 13px;
+    color: rgb(7,22,98);
+    line-height: 21px;
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+}
+
+.project{
+    color: rgb(22,125,213);
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    margin-left: 920px;
+    margin-top: -150px;
+}
+.project1{
+    text-align: center;
+
+    font-size: 13px;
+    color: rgb(7,22,98);
+    line-height: 21px;
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+  margin-left: 910px;
+}
+
+.good{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(7,19,98);
+    margin-top: 79px;
+}
+
+.b1{
+    height: 88px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.infos{
+    color: white;
+    font-size: 13px;
+    margin-left: 450px;
+    margin-top: -70px;
+    line-height: 21px;
+   
+   text-align: justify;
+    
+}
+.infos2{
+    color: white;
+    font-size: 13px;
+    margin-left: 700px;
+    margin-top: -180px;
+    line-height: 21px;
+    
+}
+
+.paper{
+ margin-left: 300px;
+ margin-top: -130px;
+ 
+ 
+}
+.imagess{
+    height: 50px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(54,168,199);
+}
+.september{
+    margin-top: -90px;
+    margin-left: 70px;
+    text-align: justify;
+    font-size: 11px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.inside{
+    font-size: 10px;
+    line-height: 19px;
+    margin-top: -1px;
+    color: rgb(150,184,209);
+}
+.september2{
+    margin-top: -90px;
+    margin-left: 70px;
+    text-align: justify;
+    font-size: 11px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.inside2{
+    font-size: 10px;
+    line-height: 19px;
+    margin-top: -1px;
+    color: rgb(150,184,209);
+}
+.september3{
+    margin-top: -90px;
+    margin-left: 70px;
+    text-align: justify;
+    font-size: 11px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.inside3{
+    font-size: 10px;
+    line-height: 19px;
+    margin-top: -1px;
+    color: rgb(150,184,209);
+}
+.border{
+    border: 1px solid rgb(14,96,156);
+    width: 100%;
+    margin-top: 80px;
+}
+
+.copy{
+    color: white;
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 100px;
+}
